@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Garage Door Modal Demo</title>
+    <meta name="description" content="Garage Door Modal Demo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="garage-door-modal.css">
+    <style type="text/css" media="all">
+      body {
+        background: #fff;
+        color: #333;
+        font: 16px/24px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        padding: 50px 100px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <h1>Garage Door Modal Demo</h1>
+    <p>
+        <a href="#my-video-modal" class="gd-show-modal">Show video modal</a>
+    </p>
+
+    <div id="my-video-modal" class="gd-modal">
+        <a href="#" class="gd-close gd-hide-modal">Close</a>
+        <div class="gd-inner">
+            <iframe id="my-video-player" src="http://player.vimeo.com/video/70039714?api=1&amp;player_id=my-video-player" width="753" height="424" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="garage-door-modal.js"></script>
+  </body>
+</html>
