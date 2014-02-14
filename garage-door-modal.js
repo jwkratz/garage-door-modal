@@ -29,7 +29,6 @@ $('.gd-hide-modal').click(function(e) {
   e.preventDefault();
 
   // Assume the 'hide' link is inside the modal
-  var clickedElement = $(this);
   var duration = 300;
   var modal = $(this).closest(".gd-modal");
   var inner = modal.find(".gd-inner");
